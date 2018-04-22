@@ -11,9 +11,9 @@ let client = sdk.createClient({
 })
 
 client.on('Room.timeline', function(event, room, toStartOfTimeline) {
-  if (room.roomId === config.roomId) {
-    if (event.getSender() !== config.userId) {
-      if (event.getTs() > START_TIME) {
+  if (event.getTs() > START_TIME) {
+    if (room.roomId === config.roomId) {
+      if (event.getSender() !== config.userId) {
         client.sendTextMessage(config.roomId, 'lol kek')
       }
     }
