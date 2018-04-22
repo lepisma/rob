@@ -1,0 +1,22 @@
+{
+  "name": "rob",
+  "version": "0.0.1",
+  "description": "Simple riot notification bot",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.3",
+    "matrix-js-sdk": "^0.10.1",
+    "olm": "https://matrix.org/packages/npm/olm/olm-2.2.2.tgz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lepisma/rob.git"
+  },
+  "author": "Abhinav Tushar",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/lepisma/rob/issues"
+  },
+  "homepage": "https://github.com/lepisma/rob#readme"
+}

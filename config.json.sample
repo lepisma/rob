@@ -1,0 +1,7 @@
+{
+  "baseUrl": "https://matrix.org",
+  "userId": "@user:matrix.org",
+  "roomId": "!roomId:matrix.org",
+  "accessToken": "accessTokenForUser",
+  "port": 8888
+}
